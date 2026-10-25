@@ -1,1 +1,4 @@
-Name: Build 4PDA APK, on: workflow_dispatch, jobs: check: runs-on: ubuntu-latest, steps: минус name: Test workflow, run: echo "Проверка сборки"
+name: Build 4PDA APK
+on: workflow_dispatch
+jobs: test: runs-on: ubuntu-latest
+steps: минус name: Test workflow, run: echo "Проверка сборки"
